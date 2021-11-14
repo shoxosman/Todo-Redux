@@ -22,6 +22,9 @@ export default function TheNavbar() {
             <Nav.Link as={Link} to="/products">
               Products
             </Nav.Link>
+            <Nav.Link as={Link} to="/Todo">
+              Todo
+            </Nav.Link>
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="Categories"
